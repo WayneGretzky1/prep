@@ -32,9 +32,7 @@ if __name__ == "__main__":
     node3 = TreeNode(20, node4, node5)
     tree1 = TreeNode(3,node2,node3)
 
+    assert test.isBalanced(tree1) == True
     node3 = TreeNode(2)
     tree2 = TreeNode(1,None,node3)
-
-
-    assert test.isBalanced(tree1) == True
     # assert test.maxDepth(tree2) == 2
